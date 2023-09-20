@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "ss-demo-teste"
+  description: "ss-demo-teste"
+  annotations:
+    github.com/project-slug: veecode-platform/ss-demo-teste
+    backstage.io/techdocs-ref: dir:.
+    github.com/workflows: aws_start_manual.yml,aws_stop_manual.yml,aws_remove_manual.yml
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/admin"

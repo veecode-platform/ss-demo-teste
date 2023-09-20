@@ -1,0 +1,8 @@
+site_name: ss-demo-teste
+site_description: "ss-demo-teste"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
